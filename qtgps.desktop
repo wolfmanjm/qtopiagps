@@ -1,0 +1,10 @@
+[Translation]
+File=qtgps-nct
+Context=qtgps
+
+[Desktop Entry]
+Comment[]=A GPS Test Program
+Exec=qtgps
+Icon=qtgps/Qtgps
+Type=Application
+Name[]=qtgps

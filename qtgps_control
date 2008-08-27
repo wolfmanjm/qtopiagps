@@ -1,0 +1,10 @@
+Package: qtgps
+Version: 0.1
+Description: A Qtopia based GPS test
+Section: openmoko/applications
+Priority: optional
+Maintainer: morris@wolfman.com
+Architecture: armv4t
+Homepage: http://blog.wolfman.com/
+Depends: gpsd
+Source: 
