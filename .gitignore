@@ -7,3 +7,6 @@ qtgps
 qtgps.pro.cache
 runqvfb
 unpack
+.moc
+.obj
+.ui
