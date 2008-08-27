@@ -1,3 +1,9 @@
 This is a port of xgps from the gpsd distribution to Qtopia for the Freerunner.
 
 More info can be found at http://blog.wolfman.com/articles/2008/08/27/porting-xgps-to-qtopia-for-the-freerunner
+
+To build you need the Trolltech toolchain.
+
+> cd qtopiagps
+> $QPEDIR/bin/qtopiamake
+> make
