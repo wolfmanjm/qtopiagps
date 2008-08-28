@@ -66,6 +66,9 @@ void SkyView::paintEvent(QPaintEvent *)
 
 	if(gpsdata == NULL)
 		return;
+
+	QFont serifFont("Times", 6);
+	painter.setFont(serifFont);
 	
 	/* Now draw the satellites... */
 	for (int i = 0; i < gpsdata->satellites; i++) {
@@ -118,6 +121,6 @@ void SkyView::paintEvent(QPaintEvent *)
 		QString buf;
 		buf.setNum(gpsdata->PRN[i]);
 		painter.setPen(Qt::black);
-		painter.drawText(x, y+17, buf);
+		painter.drawText(x, y+14, buf);
 	}
 }
