@@ -7,3 +7,7 @@ To build you need the Trolltech toolchain.
 > cd qtopiagps
 > $QPEDIR/bin/qtopiamake
 > make
+
+If you don't have libgps in the toolchain then detar the libgps.tar.gz
+into the toolchain, by default this is /opt/toolchain and the libs go in usr/lib
+
