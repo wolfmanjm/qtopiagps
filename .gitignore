@@ -3,7 +3,6 @@
 .qmake.cache
 Makefile
 Makefile.target
-qtgps
 qtgps.pro.cache
 runqvfb
 unpack
