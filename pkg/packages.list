@@ -1,0 +1,19 @@
+
+Package: qtgps
+Filename: qtgps_1.0.0-1_arm.qpk
+Size: 20215
+MD5Sum: 00035a5d51b12729495ab5886db756c2
+Description: GPS Test Application
+Maintainer: Jim Morris (blog.wolfman.com)
+License: LGPL
+Version: 1.0.0-1
+Trust: Untrusted
+Arch: arm
+Architecture: arm
+Domain: trusted
+QtopiaVersion: 4.3.0-4.3.2
+Devices: ficgta01
+Type: generic
+Installed-Size: 66315
+File-Count: 5
+
