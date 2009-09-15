@@ -35,4 +35,6 @@ TODO
 ====
 
 1. I plan on removing the dependency on gpsd, and use the builtin Location API of Qt.
+   Turns out the Whereabouts API in Qt does not support getting satellite info, so won't do this
 2. I want to add simple tracking, and pedometer type functions.
+   This will be done in a new app instead, using the Whereabouts API
