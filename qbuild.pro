@@ -1,13 +1,13 @@
-qtopia_project(qtopia app) # see buildsystem.html for more project keywords
-
+TEMPLATE=app
 TARGET = qtgps
 # main.cpp uses the QTOPIA_ADD_APPLICATION/QTOPIA_MAIN macros
-CONFIG+=qtopia_main
+CONFIG+=qtopia
+
 # Despite using the QTOPIA_MAIN macro, do not build this app as a
 # quicklaunch plugin unless -force-quicklaunch was passed to configure
-CONFIG+=no_quicklaunch
+#CONFIG+=no_quicklaunch
 # Do not build this app into a singleexec binary
-CONFIG+=no_singleexec
+#CONFIG+=no_singleexec
 
 # Specify the languages that make lupdate should produce .ts files for
 AVAILABLE_LANGUAGES=en_US
@@ -35,16 +35,16 @@ desktop.hint=nct desktop
 INSTALLS+=desktop
 
 # Install some pictures.
-pics.files=pics/*
-pics.path=/pics/example
-pics.hint=pics
-INSTALLS+=pics
+#pics.files=pics/*
+#pics.path=/pics/example
+#pics.hint=pics
+#INSTALLS+=pics
 
 # Install help files
-help.source=help
-help.files=qtgps.html
-help.hint=help
-INSTALLS+=help
+#help.source=help
+#help.files=qtgps.html
+#help.hint=help
+#INSTALLS+=help
 
 # SXE information
 target.hint=sxe

@@ -1,13 +1,17 @@
 This is a port of xgps from the gpsd distribution to Qtopia for the Freerunner.
+UPDATED to run on qtmoko AKA Qt Extended.
 
 More info can be found at http://blog.wolfman.com/articles/2008/08/27/porting-xgps-to-qtopia-for-the-freerunner
 
 To build you need the Trolltech toolchain.
 
 > cd qtopiagps
-> $QPEDIR/bin/qtopiamake
-> make
+> $QPEDIR/bin/qbuild
 
-If you don't have libgps in the toolchain then detar the libgps.tar.gz
-into the toolchain, by default this is /opt/toolchain and the libs go in usr/lib
+If you don't have libgps in the toolchain then detar the libgps-dev.tar.gz
+into the toolchain
+> cd /
+> tar xvfz libgps-dev.tar.gz
+
+it will go into /opt/toolchains/arm920t-eabi/arm-angstrom-linux-gnueabi/usr/lib/...
 
