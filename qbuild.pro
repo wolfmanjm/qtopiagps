@@ -53,7 +53,6 @@ target.domain=trusted
 # Package information (used for make packages)
 pkg.name=qtgps
 pkg.desc=GPS Test Application
-pkg.version=1.0.0-1
+pkg.version=1.0.1
 pkg.maintainer=Jim Morris (blog.wolfman.com)
 pkg.license=LGPL
-pkg.depends=gpsd
