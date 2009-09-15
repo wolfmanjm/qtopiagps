@@ -9,3 +9,4 @@ unpack
 .moc
 .obj
 .ui
+.uic
